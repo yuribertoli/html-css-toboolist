@@ -22,7 +22,8 @@ body {
     left: 180px;
     transform: translate(-50%, -50%);
     font-size: 35px;
-    font-family: 'Cabin', sans-serif;;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
 }
 
 .container {
@@ -58,3 +59,38 @@ body {
     padding: 5px 10px;
     font-family: 'Cabin', sans-serif;;
 }
+
+.lists {
+    padding: 20px 0 10px 50px;
+}
+
+.lists h2:before {
+    content: '\23F7';
+    font-size: 20px;
+}
+
+.lists h2 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+.lists div div:before {
+    content: '\2714';
+    color: #66c1aa;
+    border: 1px solid #66c1aa;
+    border-radius: 50%;
+    margin: 0 5px 0 2px;
+}
+
+.container .lists div .error:before {
+    content: '\1F5F4';
+    color: #eb4e44;
+    border: 1px solid #eb4e44;
+    border-radius: 50%;
+    margin: 0 7.5px 0 2px;
+}
+
+.lists div div {
+    font-family: 'Cabin', sans-serif;
+}
+
