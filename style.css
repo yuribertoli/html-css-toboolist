@@ -41,4 +41,20 @@ body {
     border: 1px solid #e5e7e7; 
 }
 
+#button-task {
+    color: white;
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Cabin', sans-serif;;
+}
 
+#button-section {
+    color: #b0b9b9;
+    background-color: white;
+    border: 1.5px solid#b0b9b9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Cabin', sans-serif;;
+}
