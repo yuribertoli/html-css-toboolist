@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Cabin', sans-serif;
     background-color: #e5e7e7;
 }
 
@@ -22,7 +23,6 @@ body {
     left: 180px;
     transform: translate(-50%, -50%);
     font-size: 35px;
-    font-family: 'Cabin', sans-serif;
     font-weight: 700;
 }
 
@@ -48,7 +48,6 @@ body {
     border: 1px solid #47adf1;
     border-radius: 5px;
     padding: 5px 10px;
-    font-family: 'Cabin', sans-serif;;
 }
 
 #button-section {
@@ -57,7 +56,6 @@ body {
     border: 1.5px solid#b0b9b9;
     border-radius: 5px;
     padding: 5px 10px;
-    font-family: 'Cabin', sans-serif;;
 }
 
 .lists {
@@ -71,7 +69,6 @@ body {
 }
 
 .lists h2 {
-    font-family: 'Cabin', sans-serif;
     font-weight: 700;
     margin-bottom: 0;
 }
@@ -95,7 +92,37 @@ body {
 }
 
 #first-topic, #second-topic, #third-topic div {
-    font-family: 'Cabin', sans-serif;
     font-size: 18px;
 }
 
+.lists div span {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.azzurro {
+    background-color: #47adf1;
+}
+
+.viola {
+    background-color: #9c72e4;
+}
+
+.verdeacqua {
+    background-color: #64c0a9;
+}
+
+.arancione {
+    background-color: #f29e33;
+}
+
+.rosa {
+    background-color: #d863a1;
+}
+
+.verde {
+    background-color: #b0c926;
+}
